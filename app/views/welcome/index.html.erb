@@ -1,2 +1,101 @@
-<h1>Welcome#index</h1>
-<p>Find me in app/views/welcome/index.html.erb</p>
+<header>
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button> -->
+        <a class="navbar-brand" href="#">Thoughtful Food</a>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main role="main">
+
+  <div class="section-1">
+    <div class="container">
+      <div class="ourMessageContainer col-md-6">
+        <h2>Quick - Curated - Healthy</h2>
+        <p>Your time is valuable, that's why we aim to bring
+         you a special selection of healthy food quickly.</p>
+        <button class="btn btn-primary explore">Explore Now</button>
+      </div>
+      <div class="signInContainer col-md-6">
+        <form class="form-signin" role="form">
+          <h2 class="form-signin-heading">Sign Up Now</h2>
+          <input type="email" class="form-control" placeholder="Email address" required autofocus>
+          <input type="password" class="form-control" placeholder="Password" required>
+          <label class="checkbox">
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+          <button class="btn btn-lg btn-primary signup-btn" type="submit">Sign up</button>
+          <button class="btn btn-lg btn-primary login-btn" type="submit">Log in</button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="section-2">
+    <div class="container">
+      <div class="mid-container col-md-8 col-md-offset-2">
+        <div class="slogan">
+          <h1>Enjoy your meal <span>time</span></h1>
+        </div>
+        <div class="col-md-4">
+          <div class="delivery-estimate">
+            <p>Guarantee delivery by <br /><span><%= @deliver_time%></span></p>
+          </div>
+        </div>
+        <div class="deliveryMessageContainer col-md-8">
+          <h2>We promise to deliver to your doorstep within 45 minutes of ordering</h2>
+          <button class="btn btn-primary order">Order Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-3">
+    <div class="container marketing">
+      <h1 class="todays-recommendations">Today's Recommendations</h1>
+      <div class="row recommendation-container">
+        <div class="col-lg-4">
+          <div class="mask">
+            <img class="img-circle" src="//www.chef-in-training.com/blog/wp-content/uploads/2014/09/Mushroom-PepperJack-Burger-Pretzel-Bun-Sliders-1.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          </div>
+          <h2>Grilled Burger</h2>
+          <p>Grilled grass fed lean beef, salad, relish & herbed mayo.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <h2>Heading</h2>
+          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+    </div>
+  </div>
+
+
+
+
+
+
+</main>
+
+
+<footer class="footer">
+  <p>&copy; Thoughtful Foods, Inc &middot; </p>
+</footer>
