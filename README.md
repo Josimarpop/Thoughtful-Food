@@ -3,6 +3,8 @@ Thoughtful-Food
 
 Ruby on Rails - Food delivery project
 
+```
+
       _.-')
   .-'` .-'          _  .-')            _
   '-'| |   .--.  .-' ) | |     _    .-' )
@@ -39,3 +41,4 @@ Ruby on Rails - Food delivery project
                .-'"-\.-.\,
                      `\  `
 
+```
