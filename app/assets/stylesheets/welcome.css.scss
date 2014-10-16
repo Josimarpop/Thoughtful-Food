@@ -148,7 +148,14 @@ div.deliveryMessageContainer {
 /* Section 3
 -------------------------------------------------- */
 
+.section-3 {
+  background: #F2F2F0;
+  padding-top: 30px;
+  text-align: center;
+}
+
 .todays-recommendations {
+  color: #664D4B;
   font-size: 32px;
   margin-top: 20px;
   margin-bottom: 10px;
@@ -158,18 +165,39 @@ div.deliveryMessageContainer {
   padding-top: 30px;
 }
 
-.section-3 {
-  background: #F2F2F0;
-  padding-top: 30px;
-  padding-bottom: 50px;
-  text-align: center;
-}
-
-.div.mask {
+div.mask {
   width: 200px;
   height: 200px;
-  margin-left: 0 auto;
+  background: red;
+  border: 5px solid #D65E58;
+  border-radius: 100px;
+  margin: 0 auto;
+  overflow: hidden;
+}
 
+.food-thumbnail {
+  position: relative;
+  left: -35px;
+  height: 200px;
+}
+
+.recommendation {
+
+  margin-bottom: 50px;
+
+  h2 {
+    color: #994940;
+    font-size: 24px;
+  }
+
+  p {
+  font-family: 'Unkempt';
+  font-size: 24px;
+  }
+}
+
+.recommendations-btn {
+  border-radius: 50px;
 }
 
 /* Sign in form Style
@@ -177,7 +205,7 @@ div.deliveryMessageContainer {
 
 .signInContainer {
   /*background: #FFFFFF;*/
-  border-radius: 50px;
+  /*border-radius: 50px;*/
 }
 
 .form-signin {
