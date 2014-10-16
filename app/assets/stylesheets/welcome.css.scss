@@ -48,7 +48,7 @@ body {
 -------------------------------------------------- */
 
 div.section-1 {
-  background: image-url('food_thumbnail_1_50.png');
+  background: image-url('home_background_50.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -85,6 +85,13 @@ div.section-1 {
 
 /* Section 2
 -------------------------------------------------- */
+
+/*div.section-2 {
+  background: image-url('food_thumbnail_1_50.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
 
 div.mid-container {
   margin-top: 30px;
@@ -197,7 +204,10 @@ div.mask {
 }
 
 .recommendations-btn {
+  border: none;
   border-radius: 50px;
+  background: #428bca;
+  color: #FFFFFF;
 }
 
 /* Sign in form Style
