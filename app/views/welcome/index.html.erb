@@ -71,7 +71,7 @@
             <div class="mask">
               <%= image_tag item.photo_path, class: "food-thumbnail" %>
             </div>
-            <h2><%= item.name %></h2>
+            <h2><a href="/fooditem/<%= item.id %>"><%= item.name %></a></h2>
             <p><%= item.restaurant_name%></p>
             <p><%= number_to_currency item.price %></p>
             <p><a class="btn btn-default recommendations-btn" href="#" role="button">Place Order &raquo;</a></p>

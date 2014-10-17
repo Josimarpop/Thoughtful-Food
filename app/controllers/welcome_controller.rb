@@ -6,10 +6,10 @@ class WelcomeController < ApplicationController
     @foods = Hash.new
     ['Asian', 'Western', 'Adventurous'].each { |c| @foods[c.downcase.to_sym] = FoodItem.where(cuisine: c).sample }
 
-    if params[:admin] == "true"
-      render 'index'
-    else
-      render 'under_constructions'
-    end
+    # if params[:admin] == "true"
+    #   render 'index'
+    # else
+    #   render 'under_constructions'
+    # end
   end
 end
