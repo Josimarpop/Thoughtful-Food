@@ -1,5 +1,6 @@
 class FoodItemController < ApplicationController
   def show
-    render "show", layout: false
+    @id_requested = params[:id]
+    @food = FoodItem.find(@id_requested)
   end
 end

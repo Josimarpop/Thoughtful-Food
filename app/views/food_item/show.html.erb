@@ -1,2 +1,10 @@
-<h1>FoodItem#show</h1>
-<p>Find me in app/views/food_item/show.html.erb</p>
+<main role="main">
+  <div class="container">
+    <h1><%= @food.name %></h1>
+    <h2><%= @food.restaurant_name %></h2>
+    <h2>Price: <%= number_to_currency @food.price %></h2>
+
+    <%= image_tag @food.photo_path %>
+
+  </div>
+</main>
