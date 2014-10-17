@@ -184,13 +184,19 @@ div.mask {
 
 .food-thumbnail {
   position: relative;
-  left: -35px;
+  /*left: -35px;*/
   height: 200px;
 }
 
 .recommendation {
 
   margin-bottom: 50px;
+
+  h1 {
+    font-family: 'Unkempt';
+    font-size: 30px;
+    margin-top: 0;
+  }
 
   h2 {
     color: #994940;
